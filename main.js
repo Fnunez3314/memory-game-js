@@ -103,8 +103,8 @@ function destapar(id) {
     } else {
       errorAudio.play();
       setTimeout(() => {
-        tarjeta1.innerHTML = " ";
-        tarjeta2.innerHTML = " ";
+        tarjeta1.innerHTML = '<img src="assets/img/question-mark.png" />';
+        tarjeta2.innerHTML = '<img src="assets/img/question-mark.png" />';
         tarjeta1.disable = false;
         tarjeta2.disable = false;
         tarjetasDestapadas = 0;
